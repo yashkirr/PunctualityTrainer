@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_bar" app:startDestination="@id/map">
+
+    <fragment android:id="@+id/map" android:name="com.discoloop.punctualitytrainer.Map" android:label="fragment_map"
+              tools:layout="@layout/fragment_map"/>
+    <fragment android:id="@+id/friends" android:name="com.discoloop.punctualitytrainer.Friends"
+              android:label="fragment_friends" tools:layout="@layout/fragment_friends"/>
+    <fragment android:id="@+id/settings" android:name="com.discoloop.punctualitytrainer.Setttings"
+              android:label="fragment_setttings" tools:layout="@layout/fragment_setttings"/>
+</navigation>
